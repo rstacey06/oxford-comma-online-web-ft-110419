@@ -5,7 +5,7 @@ elsif array.length == 2
   array[0] << (" and ")
   array.join
 elsif array.length > 2
-  array[-1].prepend ("and ")
+  array[-1].insert(0, "and ")
   array.join(", ")
   end
 end
